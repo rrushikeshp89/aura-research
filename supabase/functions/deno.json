@@ -1,0 +1,13 @@
+{
+    "imports": {
+        "@shared/": "./_shared/",
+        "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.96.0"
+    },
+    "compilerOptions": {
+        "allowJs": true,
+        "lib": [
+            "deno.window",
+            "deno.ns"
+        ]
+    }
+}

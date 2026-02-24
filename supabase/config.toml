@@ -1,0 +1,16 @@
+project_id = "lcjolfcdllrglqymxcwq"
+
+[functions.researcher]
+verify_jwt = false
+
+[functions.analyst]
+verify_jwt = false
+
+[functions.follow-up]
+verify_jwt = false
+
+[functions.sector-analysis]
+verify_jwt = false
+
+[functions.cron-reresearch]
+verify_jwt = false

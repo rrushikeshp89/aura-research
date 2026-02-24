@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Main Hexagon Container -->
+  <path d="M100 20 L170 60 V140 L100 180 L30 140 V60 Z" 
+        fill="url(#mainGradient)" 
+        stroke="none" />
+        
+  <!-- Inner "Room" / Strategic Structure -->
+  <path d="M100 45 L145 70 V130 L100 155 L55 130 V70 Z" 
+        fill="#ffffff" 
+        fill-opacity="0.15" />
+        
+  <!-- Stylized 'S' / Chart Path -->
+  <path d="M70 110 L100 90 L130 110" 
+        stroke="white" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        fill="none" />
+  
+  <circle cx="70" cy="110" r="6" fill="white" />
+  <circle cx="100" cy="90" r="6" fill="white" />
+  <circle cx="130" cy="110" r="6" fill="white" />
+  
+  <!-- Connection Lines -->
+  <line x1="100" y1="90" x2="100" y2="55" stroke="white" stroke-width="2" stroke-opacity="0.6" stroke-dasharray="4" />
+  <line x1="70" y1="110" x2="70" y2="135" stroke="white" stroke-width="2" stroke-opacity="0.6" stroke-dasharray="4" />
+  <line x1="130" y1="110" x2="130" y2="135" stroke="white" stroke-width="2" stroke-opacity="0.6" stroke-dasharray="4" />
+
+</svg>
