@@ -123,7 +123,7 @@ const Index = () => {
                   <ArrowLeft className="h-4 w-4" />
                 </Button>
               )}
-              <img src="/src/assets/strategyroom-logo.svg" alt="StrategyRoom.ai" className="h-8 w-auto" />
+              <img src="/strategyroom-logo.svg" alt="StrategyRoom.ai" className="h-8 w-auto" />
               <span className="font-bold text-foreground tracking-tight text-lg">
                 StrategyRoom<span className="text-gradient">.ai</span>
               </span>
@@ -168,7 +168,7 @@ const Index = () => {
                 <SheetContent side="right" className="glass-strong border-l border-white/[0.08] w-72">
                   <SheetHeader>
                     <SheetTitle className="text-foreground flex items-center gap-2">
-                      <img src="/src/assets/strategyroom-logo.svg" alt="" className="h-6 w-auto" />
+                      <img src="/strategyroom-logo.svg" alt="" className="h-6 w-auto" />
                       StrategyRoom<span className="text-gradient">.ai</span>
                     </SheetTitle>
                   </SheetHeader>

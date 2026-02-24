@@ -85,7 +85,7 @@ export default function LoginPage() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="flex items-center justify-center gap-2 mb-4"
           >
-            <img src="/src/assets/strategyroom-logo.svg" alt="StrategyRoom.ai" className="h-10 w-auto" />
+            <img src="/strategyroom-logo.svg" alt="StrategyRoom.ai" className="h-10 w-auto" />
             <span className="font-semibold text-foreground tracking-tight text-2xl">StrategyRoom.ai</span>
           </motion.div>
           <p className="text-muted-foreground text-sm">

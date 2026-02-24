@@ -28,7 +28,7 @@ export default function ComparisonView() {
                         <Button variant="ghost" size="sm" onClick={() => navigate("/")} className="mr-2">
                             <ArrowLeft className="h-4 w-4" />
                         </Button>
-                        <img src="/src/assets/strategyroom-logo.svg" alt="StrategyRoom.ai" className="h-8 w-auto" />
+                        <img src="/strategyroom-logo.svg" alt="StrategyRoom.ai" className="h-8 w-auto" />
                         <span className="font-semibold text-foreground tracking-tight text-xl">StrategyRoom.ai</span>
                     </div>
                     <UserMenu />
