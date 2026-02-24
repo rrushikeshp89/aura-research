@@ -30,7 +30,7 @@ export function ComparisonChart({ reports }: ComparisonChartProps) {
         },
         {
             metric: "Risk Score",
-            ...Object.fromEntries(reports.map((r) => [r.ticker, Math.max(0, 100 - (r.riskFactors?.length || 0) * 20)])),
+            ...Object.fromEntries(reports.map((r) => [r.ticker, r.confidenceBreakdown?.riskAdjustment ?? Math.max(0, 100 - (r.riskFactors?.length || 0) * 10)])),
         },
     ];
 
